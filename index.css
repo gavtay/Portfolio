@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+    margin-top: -11px;
+    padding: 0;
+}
+
+.whole-page {
+    background-color: #2c4c3b;
+    height: 750px;
+}
+
+.name-index {
+    color: #90EE90;
+    font-family: Montserrat;
+    padding-top: 15px;
+}
+
+
+
