@@ -9,29 +9,23 @@ html, body {
     height: 750px;
 }
 
+.header {
+    display: flex;
+    background-color: #02260B;
+}
+
 .name-index {
     color: #90EE90;
     font-family: Montserrat;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 55px;
-    margin-bottom: 0px;
+    margin-bottom: -10px;
 }
 
-.page-line {
-    height: 1px;
-    width: 1250px;
-    border: none;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background-color: black;
-}
-
+/* Menu buttons */
 .menu-options {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    display: flex;
-    justify-content: right;
-    padding-right: 96px;
+    padding-top: 39px;
+    padding-left: 850px;
 }
 
 .menu-format {
@@ -44,8 +38,9 @@ html, body {
 
 .button-style {
     font-family: Montserrat;
-    background-color: #2c4c3b;
+    background-color: #02260B;
     color: #90EE90;
+    font-weight: bold;
     border: none;
     min-width: 100px;
     min-height: 25px;
@@ -53,19 +48,9 @@ html, body {
 }
 
 .button-style:hover {
-    background-color: #2c4c3b;
+    background-color: #02260B;
     transition: 0.7s;
     min-width: 150px;
     min-height: 25px;
     border-radius: 10px;
-}
-
-.menu-line {
-    height: 1px;
-    width: 1250px;
-    border: none;
-    margin-top: 41px;
-    margin-left: 55px;
-    margin-right: -38px;
-    background-color: black;
 }
