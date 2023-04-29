@@ -115,5 +115,31 @@ html, body {
 
 .projects-image {
     display: flex;
+    justify-content: center;
+    justify-content: space-around;
 }
 
+.button {
+    margin-top: 10px;
+    margin-left: 134px;
+    margin-bottom: 40px;
+    background-color: #02260B;
+    border: none;
+    min-width: 100px;
+    min-height: 25px;
+    border-radius: 10px;
+
+}
+
+.img {
+    height: 220px;
+    border-radius: 10px;
+}
+
+.img:hover {
+    background-color: #90EE90;
+    transition: 0.7s;
+    min-width: 150px;
+    min-height: 25px;
+    border-radius: 10px;
+}
