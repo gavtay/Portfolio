@@ -6,7 +6,7 @@ html, body {
 
 .whole-page {
     background-color: #2c4c3b;
-    height: 850px;
+    height: 1500px;
 }
 
 .header {
@@ -16,20 +16,22 @@ html, body {
     width: 100%;
     background-color: #02260B;
     margin-top: -20px;
+    border-bottom: solid;
+    border-color: black;
 }
 
 .name-index {
     color: #90EE90;
     font-family: Montserrat;
     padding-top: 10px;
-    padding-left: 55px;
+    padding-left: 45px;
     margin-bottom: -10px;
 }
 
 /* Menu buttons */
 .menu-options {
     padding-top: 39px;
-    padding-left: 850px;
+    padding-left: 835px;
 }
 
 .menu-format {
@@ -59,7 +61,55 @@ html, body {
 }
 
 .about-index {
-    height: 700px;
-    background-color: aqua;
+    height: 175px;
+    background-color: #2c4c3b;
+}
+
+.about-box {
+    height: 375px;
+    width: 850px;
+    background-color: #02260B;
+    font-family: Montserrat;
+    color: #90EE90;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-color: black;
+}
+
+.index-title {
+    margin-left: 383px;
+}
+
+.about-text {
+    margin-top: 35px;
+    margin-left: 40px;
+    font-size: large;
+}
+
+.about-list {
+    margin-left: 100px;
+}
+
+.projects-index {
+        height: 100px;
+        background-color: #2c4c3b;
+}
+
+.projects-box {
+    height: 375px;
+    width: 850px;
+    margin-left: 499px;
+    background-color: #02260B;
+    font-family: Montserrat;
+    color: #90EE90;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top: solid;
+    border-left: solid;
+    border-bottom: solid;
+    border-color: black;
 }
 
