@@ -94,8 +94,8 @@ html, body {
 }
 
 .projects-index {
-        height: 100px;
-        background-color: #2c4c3b;
+    height: 100px;
+    background-color: #2c4c3b;
 }
 
 .projects-box {
@@ -111,5 +111,9 @@ html, body {
     border-left: solid;
     border-bottom: solid;
     border-color: black;
+}
+
+.projects-image {
+    display: flex;
 }
 
