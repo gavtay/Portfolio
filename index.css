@@ -80,7 +80,7 @@ html, body {
 }
 
 .index-title {
-    margin-left: 383px;
+    margin-left: 365px;
 }
 
 .about-text {
@@ -115,17 +115,18 @@ html, body {
 
 .projects-image {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     justify-content: space-around;
 }
 
 .button {
     margin-top: 10px;
-    margin-left: 134px;
-    margin-bottom: 40px;
+    margin-left: 90px;
+    margin-right: 100px;
+    /* margin-bottom: 40px; */
     background-color: #02260B;
     border: none;
-    min-width: 100px;
+    min-width: 200px;
     min-height: 25px;
     border-radius: 10px;
 
@@ -139,7 +140,12 @@ html, body {
 .img:hover {
     background-color: #90EE90;
     transition: 0.7s;
-    min-width: 150px;
+    min-width: 200px;
     min-height: 25px;
     border-radius: 10px;
+}
+
+.projects-text {
+    display: flex;
+    justify-content: space-around;
 }
