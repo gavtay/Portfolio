@@ -28,7 +28,6 @@ html, body {
     margin-bottom: -10px;
 }
 
-/* Menu buttons */
 .menu-options {
     padding-top: 39px;
     padding-left: 835px;
@@ -189,38 +188,43 @@ html, body {
     background-color: #2c4c3b;
 }
 
+.footer-options {
+    height: 65px;
+    padding-left: 910px;
+}
+
 .footer {
     display: flex;
     justify-content: space-around;
+    /* possibly not fixed */
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
     background-color: #02260B;
-    margin-top: -20px;
-    border-bottom: solid;
+    margin-top: -9px;
+    border-top: solid;
     border-color: black;
 }
 
-.button-footer {
-    margin-top: 10px;
-    margin-left: 90px;
-    background-color: #02260B;
+.footer-format {
+    margin-top: 20px;
+    color: #90EE90;
+    font-size: larger;
+}
+
+.link-style {
+    font-family: Montserrat;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 15px;
+    color: #90EE90;
     border: none;
+    min-width: 80px;
+    min-height: 25px;
     border-radius: 10px;
 }
 
-.image-footer {
-    height: 20px;
-    width: 20px;
-    height: auto;
-    border-radius: 10px;
-    -webkit-filter: grayscale(100%);
-}
-
-.img-footer:hover {
-    background-color: #90EE90;
+.link-style:hover {
+    color: #2c4c3b;
     transition: 0.7s;
-    border-radius: 10px;
 }
-
-
-
