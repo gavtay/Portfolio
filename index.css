@@ -36,9 +36,11 @@ html, body {
     margin-bottom: -10px;
 }
 
+/* Fix button alignment in header to be at right side*/
 .menu-options {
     padding-top: 39px;
-    padding-left: 835px;
+    /* padding-left: 835px; */
+    /* float: right; */
 }
 
 .menu-format {
@@ -183,13 +185,11 @@ html, body {
 
 .footer-options {
     height: 65px;
-    padding-left: 910px;
 }
 
 .footer {
     display: flex;
     justify-content: space-around;
-    /* possibly not fixed */
     /* position: fixed; */
     bottom: 0;
     width: 100%;
