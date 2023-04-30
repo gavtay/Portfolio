@@ -46,7 +46,6 @@ html, body {
     display:flex;
     justify-content: center;
     justify-content: space-around;
-    text-align: right;
 }
 
 .button-style {
@@ -68,14 +67,11 @@ html, body {
     border-radius: 10px;
 }
 
-.about-index {
-    height: 175px;
-    background-color: #2c4c3b;
-}
-
 .about-box {
     height: 375px;
     width: 850px;
+    margin-top: 190px;
+    float: left;
     background-color: #02260B;
     font-family: Montserrat;
     color: #90EE90;
@@ -101,15 +97,11 @@ html, body {
     margin-left: 100px;
 }
 
-.projects-index {
-    height: 100px;
-    background-color: #2c4c3b;
-}
-
 .projects-box {
     height: 660px;
     width: 850px;
-    margin-left: 499px;
+    margin-top: 100px;
+    float: right;
     background-color: #02260B;
     font-family: Montserrat;
     color: #90EE90;
@@ -123,7 +115,6 @@ html, body {
 
 .projects-image {
     display: flex;
-    /* justify-content: center; */
     justify-content: space-around;
 }
 
@@ -167,14 +158,12 @@ html, body {
     border-radius: 10px;
 }
 
-.experience-index {
-    height: 100px;
-    background-color: #2c4c3b;
-}
-
 .experience-box {
     height: 310px;
     width: 850px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    float: left;
     background-color: #02260B;
     font-family: Montserrat;
     color: #90EE90;
@@ -190,11 +179,6 @@ html, body {
     margin-top: 35px;
     margin-left: 40px;
     font-size: large;
-}
-
-.footer-index {
-    height: 100px;
-    background-color: #2c4c3b;
 }
 
 .footer-options {
