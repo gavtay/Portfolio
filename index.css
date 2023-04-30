@@ -4,6 +4,14 @@ html, body {
     padding: 0;
 }
 
+/*
+@font-face { 
+  font-family: "Montserrat";
+  src: local("Motserrat"),
+    url("trickster-COLRv1.otf") format("opentype") tech(color-COLRv1), url("trickster-outline.otf")
+      format("opentype"), url("trickster-outline.woff") format("woff");
+*/
+
 .whole-page {
     background-color: #2c4c3b;
     height: 1885px;
