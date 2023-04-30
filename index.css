@@ -6,7 +6,7 @@ html, body {
 
 .whole-page {
     background-color: #2c4c3b;
-    height: 2000px;
+    height: 1885px;
 }
 
 .header {
@@ -128,7 +128,6 @@ html, body {
     min-width: 200px;
     min-height: 25px;
     border-radius: 10px;
-
 }
 
 .img {
@@ -184,3 +183,44 @@ html, body {
     margin-left: 40px;
     font-size: large;
 }
+
+.footer-index {
+    height: 100px;
+    background-color: #2c4c3b;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    width: 100%;
+    background-color: #02260B;
+    margin-top: -20px;
+    border-bottom: solid;
+    border-color: black;
+}
+
+.button-footer {
+    margin-top: 10px;
+    margin-left: 90px;
+    background-color: #02260B;
+    border: none;
+    max-height: 25px;
+    max-width: 25px;
+    border-radius: 10px;
+}
+
+.image-footer {
+    max-width: 25px;
+    border-radius: 10px;
+    color: black;
+}
+
+.img-footer:hover {
+    background-color: #90EE90;
+    transition: 0.7s;
+    border-radius: 10px;
+}
+
+
+
