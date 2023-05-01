@@ -13,10 +13,11 @@ html, body {
       format("opentype"), url("trickster-outline.woff") format("woff");
 */
 
+/* 
 .whole-page {
     background-color: #2c4c3b;
     height: 1885px;
-}
+} */
 
 .header {
     display: flex;
