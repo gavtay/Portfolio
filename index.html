@@ -8,23 +8,29 @@
         <title>Gavtay's Portfolio</title>
     </head>
     <body>
-        <!-- <div class="whole-page"> -->
             <div class="header">
                 <div class="name-index">
                     <h1>GAVTAY</h1>
                 </div>
-                <div class="menu-options">
+                <div>
                     <div class="menu-format">
-                        <button class="button-style">About</button>
-                        <button class="button-style">Projects</button>
-                        <button class="button-style">Experience</button>
+                        <button 
+                            class="button-style" 
+                            onclick="document.getElementById('about-title').scrollIntoView();">About
+                        </button>
+                        <button 
+                            class="button-style"
+                            onclick="document.getElementById('projects-title').scrollIntoView();">Projects
+                        </button>
+                        <button 
+                            class="button-style"
+                            onclick="document.getElementById('experience-title').scrollIntoView();">Experience
+                        </button>
                     </div>
                 </div>
             </div>
-            <!-- <div class="whole-page"> -->
-            <div class="about-index"></div>
             <div class="about-box">
-                <h2 class="index-title">About</h2>
+                <h2 id="about-title">About</h2>
                 <p class="about-text">
                     <strong>Hello!</strong> I am a university computer science student & tutor located in Fort Worth, Texas.
                 </p>
@@ -43,7 +49,7 @@
                 </p>
             </div>
             <div class="projects-box">
-                <h2 class="index-title">Projects</h2>
+                <h2 id="projects-title">Projects</h2>
                 <div class="projects-images">
                     <button class="button" onclick="window.open('https://github.com/gavtay/console-number-game','_blank')">
                         <img class="img" src="../Portfolio/images/terminal.png" alt="Black and white terminal">
@@ -66,7 +72,7 @@
                 </div>
             </div>
             <div class="experience-box">
-                <h2 class="index-title">Experience</h2>
+                <h2 id="experience-title">Experience</h2>
                 <p class="experience-text">
                     <strong>Computer Science Instructional Aide</strong> ........................................
                     January 2022 ~ Current Date</p>
@@ -83,7 +89,7 @@
                 </ul>
             </div>
             <div class="footer">
-                <div class="footer-options">
+                <div>
                     <div class="footer-format">
                         <output>cout &#60;&#60;</output>
                         <a class="link-style" href="https://github.com/gavtay" target="_blank">GitHub</a>
