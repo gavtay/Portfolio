@@ -25,6 +25,7 @@ html, body {
     margin-top: -20px;
     border-bottom: solid;
     border-color: black;
+    justify-content: space-between;
 }
 
 
@@ -39,12 +40,13 @@ html, body {
 .menu-format {
     width: 250px;
     padding-top: 39px;
+    padding-right: 75px;
     display:flex;
     justify-content: center;
     justify-content: space-around;
 }
 
-/* .button-style {
+.button-style {
     font-family: Montserrat;
     background-color: #02260B;
     color: #90EE90;
@@ -61,7 +63,7 @@ html, body {
     min-width: 150px;
     min-height: 25px;
     border-radius: 10px;
-} */
+}
 
 .about-box {
     height: 375px;
