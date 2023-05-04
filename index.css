@@ -7,14 +7,6 @@ html, body {
     scroll-padding-top: 130px;
 }
 
-/*
-@font-face { 
-  font-family: "Montserrat";
-  src: local("Motserrat"),
-    url("trickster-COLRv1.otf") format("opentype") tech(color-COLRv1), url("trickster-outline.otf")
-      format("opentype"), url("trickster-outline.woff") format("woff");
-*/
-
 .header {
     display: flex;
     position: fixed;
@@ -67,28 +59,26 @@ html, body {
 
 .about-box {
     height: 375px;
-    width: 850px;
+    width: 1000px;
     margin-top: 190px;
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #02260B;
     font-family: Montserrat;
     color: #90EE90;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top: solid;
-    border-right: solid;
-    border-bottom: solid;
+    border-radius: 10px;
+    border: solid;
     border-color: black;
 }
 
 #about-title {
-    margin-left: 365px;
+    text-align: center;
 }
 
 .about-text {
     margin-top: 35px;
-    margin-left: 40px;
     font-size: large;
+    text-align: center;
 }
 
 .list {
@@ -97,23 +87,20 @@ html, body {
 
 .projects-box {
     height: 660px;
-    width: 850px;
-    margin-top: 190px;
-    /* margin-top: 100px */
-    float: right;
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #02260B;
     font-family: Montserrat;
     color: #90EE90;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-top: solid;
-    border-left: solid;
-    border-bottom: solid;
+    border-radius: 10px;
+    border: solid;
     border-color: black;
 }
 
 #projects-title {
-    margin-left: 365px;
+    text-align: center;
 }
 
 .projects-image {
@@ -148,6 +135,7 @@ html, body {
 .projects-text {
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 
 .button-portfolio {
@@ -163,30 +151,27 @@ html, body {
 
 .experience-box {
     height: 310px;
-    width: 850px;
-    margin-top: 190px;
-    /* margin-top: 100px; */
+    width: 1000px;
+    margin-top: 100px;
     margin-bottom: 100px;
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #02260B;
     font-family: Montserrat;
     color: #90EE90;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top: solid;
-    border-right: solid;
-    border-bottom: solid;
+    border-radius: 10px;
+    border: solid;
     border-color: black;
 }
 
 #experience-title {
-    margin-left: 365px;
+    text-align: center;
 }
 
 .experience-text {
     margin-top: 35px;
-    margin-left: 40px;
     font-size: large;
+    text-align: center;
 }
 
 .footer {
@@ -194,7 +179,6 @@ html, body {
     display: flex;
     justify-content: space-around;
     margin-top: 5px;
-    /* position: fixed; */
     bottom: 0;
     width: 100%;
     background-color: #02260B;
