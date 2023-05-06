@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,93 +8,106 @@
         <link rel="stylesheet" href="../Portfolio/index.css">
         <title>Gavtay's Portfolio</title>
     </head>
-    <body>
-            <div class="header">
-                <div class="name-index">
-                    <h1>GAVTAY</h1>
-                </div>
-                <div>
-                    <div class="menu-format">
-                        <button 
-                            class="button-style" 
-                            onclick="document.getElementById('about-title').scrollIntoView();">About
-                        </button>
-                        <button 
-                            class="button-style"
-                            onclick="document.getElementById('projects-title').scrollIntoView();">Projects
-                        </button>
-                        <button 
-                            class="button-style"
-                            onclick="document.getElementById('experience-title').scrollIntoView();">Experience
-                        </button>
-                    </div>
-                </div>
+
+    <body> 
+        <!-- Header -->
+        <div class="header">
+
+            <!-- Name Top Left of Header -->
+            <div class="name-index">
+                <h1>GAVTAY</h1>
             </div>
-            <div class="about-box">
-                <h2 id="about-title">About</h2>
-                <p class="about-text">
-                    <strong>Hello!</strong> I am a university computer science student & tutor located in Fort Worth, Texas.
-                </p>
-                <p class="about-text">
-                    In my free time I enjoy:
-                </p>
-                <ul class="list">
-                    <li>Being involved in the web development community</li>
-                    <li>Spending time with friends and family</li>
-                    <li>Learning Japanese</li>
-                    <li>Video Games</li>
-                    <li>Chess</li>
-                </ul>
-                <p class="about-text">
-                    My <strong>goal</strong> is to become a front-end / full-stack Web Developer. 
-                </p>
-            </div>
-            <div class="projects-box">
-                <h2 id="projects-title">Projects</h2>
-                <div class="projects-images">
-                    <button class="button" onclick="window.open('https://github.com/gavtay/console-number-game','_blank')">
-                        <img class="img" src="../Portfolio/images/terminal.png" alt="Black and white terminal">
+
+            <!-- Menu buttons top right of header -->
+            <div>
+                <div class="menu-format">
+                    <button 
+                        class="button-style" 
+                        onclick="document.getElementById('about-title').scrollIntoView();">About
                     </button>
-                    <button class="button" onclick="window.open('https://github.com/gavtay/LibDB','_blank')">
-                        <img class="img" src="../Portfolio/images/open-book.png" alt="Black open cartoon book">
+                    <button 
+                        class="button-style"
+                        onclick="document.getElementById('projects-title').scrollIntoView();">Projects
+                    </button>
+                    <button 
+                        class="button-style"
+                        onclick="document.getElementById('experience-title').scrollIntoView();">Experience
                     </button>
                 </div>
-                <div class="projects-text">
-                    <p>Numble</p>
-                    <p>Library DB</p>
-                </div>
-                <div class="projects-images">
-                    <button class="button-portfolio" onclick="window.open('https://github.com/gavtay/Portfolio-one','_blank')">
-                        <img class="img" src="../Portfolio/images/services-portfolio.png" alt="Black portfolio binder">
-                    </button>
-                </div>
-                <div class="projects-text">
-                    <p>Portfolio</p>
-                </div>
             </div>
-            <div class="experience-box">
-                <h2 id="experience-title">Experience</h2>
-                <p class="experience-text"><strong>Computer Science Instructional Aide</strong>
-                    <br>Jauary 2022 ~ Current Date</p>
-                <ul class="list">
-                    <li>Tutoring fundamental principles of CS related topics</li>
-                    <li>Educating myself to stay up to date with current practices in tech</li>
-                </ul>
-                    <p class="experience-text"><strong>Process Guide</strong>
-                        <br>2020 ~ March 2021</p>
-                <ul class="list">
-                    <li>Management of a team of 10+</li>
-                    <li>Logistics using several web softwares, Excel, Word</li>
-                </ul>
+        </div>
+
+        <!-- Body -->
+
+        <!-- About Section -->
+        <div class="about-box">
+            <!-- Title of about section -->
+            <h2 id="about-title">About</h2>
+            <!-- Content of about section -->
+            <p class="about-text">
+                <strong>Hello!</strong> I am a university computer science student & tutor located in Fort Worth, Texas.
+            </p>
+            <p class="about-text">
+                In my free time I enjoy:
+            </p>
+            <ul class="list">
+                <li>Being involved in the web development community</li>
+                <li>Spending time with friends and family</li>
+                <li>Learning Japanese</li>
+                <li>Video Games</li>
+                <li>Chess</li>
+            </ul>
+            <p class="about-text">
+                My <strong>goal</strong> is to become a front-end / full-stack Web Developer. 
+            </p>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="projects-box">
+            <!-- Projects section title -->
+            <h2 id="projects-title">Projects</h2>
+            <!-- Container for buttons in projects section -->
+            <div id="button-container">
+                <button class="projects-button" onclick="window.open('https://github.com/gavtay/console-number-game','_blank')">
+                    <img class="img" src="../Portfolio/images/terminal.png" alt="Black and white terminal">Numble
+                </button>
+                <button class="projects-button" onclick="window.open('https://github.com/gavtay/LibDB','_blank')">
+                    <img class="img" src="../Portfolio/images/open-book.png" alt="Black open cartoon book">Library Database
+                </button>
+                <button class="projects-button" onclick="window.open('https://github.com/gavtay/Portfolio-one','_blank')">
+                    <img class="img" src="../Portfolio/images/services-portfolio.png" alt="Black portfolio binder">Portfolio
+                </button>
             </div>
-            <div class="footer">
-                <div>
-                    <div class="footer-format">
-                        <output>Contact &#60;&#60;</output>
-                        <a class="link-style" href="https://github.com/gavtay" target="_blank">GitHub</a>
-                        <a class="link-style" href="https://linkedin.com/in/gavtay" target="_blank">LinkedIn</a>
-                        <a class="link-style" href="https://discordapp.com/users/772551146237329428" target="_blank">Discord</a>
-                    </div>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="experience-box">
+            <!-- Experience section title -->
+            <h2 id="experience-title">Experience</h2>
+            <!-- Body portion of experience section -->
+            <p class="experience-text"><strong>Computer Science Instructional Aide</strong>
+                <br>Jauary 2022 ~ Current Date</p>
+            <ul class="list">
+                <li>Tutoring fundamental principles of CS related topics</li>
+                <li>Educating myself to stay up to date with current practices in tech</li>
+            </ul>
+                <p class="experience-text"><strong>Process Guide</strong>
+                    <br>2020 ~ March 2021</p>
+            <ul class="list">
+                <li>Management of a team of 10+</li>
+                <li>Logistics using several web softwares, Excel, Word</li>
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div>
+                <div class="footer-format">
+                    <output class="about-text"> &ltcontact&gt</output>
+                    <a class="link-style" href="https://github.com/gavtay" target="_blank">GitHub</a>
+                    <a class="link-style" href="https://linkedin.com/in/gavtay" target="_blank">LinkedIn</a>
+                    <a class="link-style" href="https://discordapp.com/users/772551146237329428" target="_blank">Discord</a>
+                    <output class="about-text">&lt/contact&gt</output>
                 </div>
             </div>
         </div>
