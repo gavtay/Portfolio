@@ -48,15 +48,29 @@ html, body {
 .button-style {
     font-family: Montserrat;
     background-color: #02260B;
-    color: #90EE90;
+    color: white;
     font-weight: bold;
+    font-size: medium;
     border: none;
     min-width: 100px;
     min-height: 25px;
     border-radius: 10px;
 }
 
-.button-style:hover {
+#about-menu {
+    font-family: Montserrat;
+    background-color: #02260B;
+    color: #90EE90;
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+    min-width: 100px;
+    min-height: 25px;
+    border-radius: 10px;
+}
+
+.button-style:hover,
+#about-menu:hover {
     background-color: #02260B;
     transition: 0.7s;
     min-width: 150px;
@@ -80,17 +94,28 @@ html, body {
 
 #about-title {
     text-align: center;
+    font-size: xx-large;
+}
+
+#hello-about {
+    color: #90EE90;
     font-size: x-large;
+}
+
+#goal-about {
+    color: #90EE90;
 }
 
 .about-text {
     margin-top: 25px;
     font-size: large;
     text-align: center;
+    color: white;
 }
 
 .list {
     margin-left: 10%;
+    color: white;
 }
 
 .projects-box {
@@ -112,7 +137,7 @@ html, body {
 #projects-title {
     text-align: center;
     padding-top: 35px;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 #button-container {
@@ -130,7 +155,7 @@ html, body {
     min-height: 25px;
     border-radius: 10px;
     font-size: medium;
-    color: #90EE90;
+    color: white;
 }
 
  .img {
@@ -172,13 +197,18 @@ html, body {
 
 #experience-title {
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
+}
+
+.experience-job {
+    color: #90EE90;
 }
 
 .experience-text {
     margin-top: 35px;
     margin-left: 5%;
     font-size: large;
+    color: white;
 }
 
 .contact-form {
@@ -199,7 +229,7 @@ html, body {
 #form-title {
     text-align: center;
     margin-bottom: 35px;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .form-text {
@@ -211,8 +241,13 @@ html, body {
     border-color: black;
 }
 
+::placeholder {
+    color: white;
+}
+
 #form-name {
     margin-left: 5%;
+    margin-bottom: 40px;
     height: 35px;
     width: 15%;
     background-color: #02260B;
@@ -224,6 +259,7 @@ html, body {
 
 #form-email {
     margin-left: 5%;
+    margin-bottom: 40px;
     height: 35px;
     width: 40%;
     background-color: #02260B;
@@ -235,6 +271,7 @@ html, body {
 
 #form-subject {
     margin-left: 5%;
+    margin-bottom: 40px;
     height: 35px;
     width: 60%;
     background-color: #02260B;
@@ -251,7 +288,7 @@ html, body {
     background-color: #02260B;
     border-radius: 10px;
     border-color: black;
-    font-size: medium;
+    font-size: large;
     color: #90EE90;
 }
 
@@ -265,7 +302,7 @@ html, body {
     font-size: medium;
     margin-top: 35px;
     background-color: #02260B;
-    color: #90EE90;
+    color: white;
     font-weight: bold;
     border: none;
     width: 200px;
@@ -295,8 +332,7 @@ html, body {
 .footer-format {
     margin-top: 20px;
     color: #90EE90;
-    font-size: larger;
-
+    font-size: medium;
 }
 
 /* .link-style {
