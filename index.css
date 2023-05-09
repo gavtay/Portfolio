@@ -361,9 +361,9 @@ ul li::before {
 }
 
 .footer-format {
-    width: 350px;
+    width: 300px;
     margin-top: 8px;
-    color: #90EE90;
+    background-color: #16261d;
     font-size: medium;
     display: flex;
     align-items: center;
@@ -372,7 +372,7 @@ ul li::before {
 
 .footer-image {
     min-height: 50px;
-    min-width: 120px;
+    min-width: 100px;
     background-color: #16261d;
     border-radius: 10px;
     border: none;
@@ -380,7 +380,7 @@ ul li::before {
 
 .footer-image:hover {
     min-height: 50px;
-    min-width: 180px;
+    min-width: 150px;
     transition: 0.7s;
 
 }
