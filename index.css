@@ -312,13 +312,14 @@ ul li::before {
 }
 
 #form-message {
+    font-family: Montserrat;
     margin-left: 5%;
     height: 100px;
     width: 80%;
     background-color: #16261d;
     border-radius: 10px;
     border-color: black;
-    font-size: large;
+    font-size: medium;
     color: #90EE90;
 }
 
@@ -365,20 +366,20 @@ ul li::before {
     color: #90EE90;
     font-size: medium;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
 }
 
 .footer-image {
-    height: 50px;
-    width: auto;
-    min-width: 50px;
+    min-height: 50px;
+    min-width: 120px;
     background-color: #16261d;
     border-radius: 10px;
     border: none;
 }
 
 .footer-image:hover {
+    min-height: 50px;
     min-width: 180px;
     transition: 0.7s;
 
