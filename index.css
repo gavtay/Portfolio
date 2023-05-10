@@ -82,7 +82,7 @@ u {
     /* this helps make phone accessible */
     max-width: 80%;
     min-width: 600px;
-    margin-top: 170px;
+    margin-top: 250px;
     margin-left: auto;
     margin-right: auto;
     background-color: #2c4c3b;
@@ -217,7 +217,7 @@ ul li::before {
     width: 1000px;
     max-width: 80%;
     min-width: 600px;
-    margin-top: 200px;
+    margin-top: 250px;
     margin-left: auto;
     margin-right: auto;
     background-color: #2c4c3b;
@@ -246,7 +246,7 @@ ul li::before {
     width: 1000px;
     max-width: 80%;
     min-width: 600px;
-    margin-top: 200px;
+    margin-top: 250px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
