@@ -279,48 +279,48 @@ ul li::before {
     margin-left: 5%;
     margin-bottom: 40px;
     height: 35px;
-    width: 15%;
+    width: 90%;
     background-color: #16261d;
     border-radius: 10px;
     border-color: black;
     font-size: medium;
-    color: #90EE90;
+    color: white;
 }
 
 #form-email {
     margin-left: 5%;
     margin-bottom: 40px;
     height: 35px;
-    width: 40%;
+    width: 90%;
     background-color: #16261d;
     border-radius: 10px;
     border-color: black;
     font-size: medium;
-    color: #90EE90;
+    color: white;
 }
 
 #form-subject {
     margin-left: 5%;
     margin-bottom: 40px;
     height: 35px;
-    width: 60%;
+    width: 90%;
     background-color: #16261d;
     border-radius: 10px;
     border-color: black;
     font-size: medium;
-    color: #90EE90;
+    color: white;
 }
 
 #form-message {
     font-family: Montserrat;
     margin-left: 5%;
     height: 100px;
-    width: 80%;
+    width: 90%;
     background-color: #16261d;
     border-radius: 10px;
     border-color: black;
     font-size: medium;
-    color: #90EE90;
+    color: white;
 }
 
 #form-button-container {
@@ -333,7 +333,6 @@ ul li::before {
     font-weight: bold;
     font-size: large;
     margin-top: 35px;
-    background-color: #16261d;
     color: white;
     border: none;
     width: 200px;
@@ -341,12 +340,14 @@ ul li::before {
     min-width: 100px;
     min-height: 25px;
     border-radius: 10px;
+    background: linear-gradient(to left, #16261d 50%, #90EE90 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
 }
 
 #form-button:hover {
-    background-color: #90EE90;
+    background-position: left;
     color: #02260B;
-    transition: 1.0s;
 }
 
 .footer {
