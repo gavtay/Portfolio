@@ -27,7 +27,6 @@ html, body {
     padding-top: 10px;
     padding-left: 45px;
     margin-bottom: -10px;
-    animation: fadeIn 5s;
 }
 
 .menu-format {
@@ -37,7 +36,6 @@ html, body {
     display:flex;
     justify-content: center;
     justify-content: space-around;
-    animation: fadeIn 5s;
 }
 
 .button-style {
