@@ -178,6 +178,7 @@ ul li::before {
     font-size: medium;
 }
 
+/* Fix spacing between Projects and experience box */
 .projects-box {
     height: 400px;
     width: 1000px;
@@ -214,6 +215,7 @@ ul li::before {
     color: #a4a4a4;
 }
 
+/* change image to match the gray coloring of everything else */
  .img {
     height: 220px;
     border-radius: 10px;
