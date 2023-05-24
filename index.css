@@ -9,7 +9,6 @@ html, body {
     margin: 0;
     margin-top: -11px;
     padding: 0;
-    /* background-color: #f5f5f5; */
     background-color: #1a1a1a;
     scroll-behavior: smooth;
     scroll-padding-top: 200px;
@@ -26,12 +25,8 @@ html, body {
     top: 0;
     height: 85px;
     width: 100%;
-    /* background-color: #f5f5f5; */
     background-color: #1a1a1a;
-    /* background-color: #b1b1b1; */
     margin-top: -20px;
-    /* border-bottom: solid;
-    border-color: black; */
     justify-content: space-between;
 }
 
@@ -56,7 +51,6 @@ html, body {
 
 .button-style {
     font-family: Montserrat;
-    /* background-color: #f5f5f5; */
     background-color: #1a1a1a;
     color: #a4a4a4;
     font-weight: bold;
@@ -69,7 +63,6 @@ html, body {
 
 #about-menu {
     font-family: Montserrat;
-    /* background-color: #f5f5f5; */
     background-color: #1a1a1a;
     color: #17dfe6;
     font-weight: bold;
@@ -82,7 +75,6 @@ html, body {
 
 .button-style:hover,
 #about-menu:hover {
-    /* background-color: #f5f5f5; */
     background-color: #1a1a1a;
     transition: 0.7s;
     min-width: 150px;
@@ -102,7 +94,6 @@ u {
     max-width: 80%;
     min-width: 600px;
     margin-top: 250px;
-    /* margin-top: 20%; */
     margin-left: auto;
     margin-right: auto;
     font-family: Montserrat;
@@ -178,7 +169,6 @@ ul li::before {
     font-size: medium;
 }
 
-/* Fix spacing between Projects and experience box */
 .projects-box {
     height: 400px;
     width: 1000px;
@@ -245,7 +235,7 @@ ul li::before {
     width: 1000px;
     max-width: 80%;
     min-width: 600px;
-    margin-top: 250px;
+    margin-top: 350px;
     margin-left: auto;
     margin-right: auto;
     font-family: Montserrat;
@@ -273,7 +263,7 @@ ul li::before {
     width: 1000px;
     max-width: 80%;
     min-width: 600px;
-    margin-top: 250px;
+    margin-top: 300px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
